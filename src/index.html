@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Operation</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+  <body>
+ 
+    <form id="waitersForm" class="form">
+      <input type="hidden"  name="id"             id="id"           class="formInput">
+      <input type="text"    name="firstName"      id="firstName"    class="formInput" placeholder="first name"/>
+      <input type="text"    name="phone"          id="phone"        class="formInput" placeholder="phone number"/>
+      <button>Save</button>
+    </form>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Actions</th>
+      </tr>
+
+      <tbody id="waitersContainer"></tbody>
+    </table>
+  </body>
+</html>
